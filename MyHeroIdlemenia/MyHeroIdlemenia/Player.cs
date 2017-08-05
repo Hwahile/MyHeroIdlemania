@@ -136,6 +136,10 @@ namespace MyHeroIdlemenia
 			set { this._CurrentMaxExp = value; NotifyPropertyChanged(); }
 		}
 
+		public int CurrentMaxExpMinusOne
+		{
+			get { return this._CurrentMaxExp-1; }
+		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
 
@@ -145,6 +149,10 @@ namespace MyHeroIdlemenia
 		private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
 		{
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+			// Wenn CurrentMaxExp sich ändert müssen auch die Bindings auf CurrentMaxExpMinusOne reagieren
+			if (propertyName == "CurrentMaxExp")
+				PropertyChanged.Invoke(this, new PropertyChangedEventArgs("CurrentMaxExpMinusOne"));
 		}
 		#endregion Properties (public)
 
