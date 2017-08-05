@@ -17,7 +17,8 @@ namespace MyHeroIdlemenia
 
 
         //Var und Fomrel für Str
-        double str_str, str_akt, str_hp;
+        double str_str;
+        double str_akt, str_hp;
 
         //Var und Fomrel für Dex
         double dex_dex, dex_cr;
