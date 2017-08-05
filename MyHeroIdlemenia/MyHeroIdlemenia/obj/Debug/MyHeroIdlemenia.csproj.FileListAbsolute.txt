@@ -1,0 +1,9 @@
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\bin\Debug\MyHeroIdlemenia.exe.config
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\bin\Debug\MyHeroIdlemenia.exe
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\bin\Debug\MyHeroIdlemenia.pdb
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\obj\Debug\MyHeroIdlemenia.csprojResolveAssemblyReference.cache
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\obj\Debug\MyHeroIdlemenia.Form1.resources
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\obj\Debug\MyHeroIdlemenia.Properties.Resources.resources
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\obj\Debug\MyHeroIdlemenia.csproj.GenerateResource.Cache
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\obj\Debug\MyHeroIdlemenia.exe
+C:\VisualStudio\MyHeroIdlemenia\MyHeroIdlemenia\obj\Debug\MyHeroIdlemenia.pdb
