@@ -18,6 +18,7 @@ namespace MyHeroIdlemenia
 
         //Var und Fomrel für Str
         double str_str;
+        // test
         double str_akt;
         double str_hp;
 
