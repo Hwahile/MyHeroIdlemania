@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#brauchen wir nich
+/MyHeroIdlemenia/obj
+/MyHeroIdlemenia/bin
