@@ -142,7 +142,9 @@ namespace MyHeroIdlemenia
 		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
-
+		
+		#endregion Properties (public)
+		
 		// This method is called by the Set accessor of each property.
 		// The CallerMemberName attribute that is applied to the optional propertyName
 		// parameter causes the property name of the caller to be substituted as an argument.
@@ -154,8 +156,6 @@ namespace MyHeroIdlemenia
 			if (propertyName == "CurrentMaxExp")
 				PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("CurrentMaxExpMinusOne"));
 		}
-		#endregion Properties (public)
-
 
 		/// <summary>
 		/// Enum, für die 4 Hauptwerte
